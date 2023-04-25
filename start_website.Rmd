@@ -1,0 +1,192 @@
+<!-- this is to start my website -->
+<!-- clear console screen -->
+cat("\014");
+
+<!-- only have to run these once -->
+install.packages("shiny")
+
+<!-- # load a bunch of packages first! -->
+library(shiny)
+<!-- library(zoo); # moving averages -->
+<!-- library(tidyverse); -->
+<!-- # library(lubridate); -->
+<!-- library(ggplot2); -->
+<!-- library(dplyr); -->
+<!-- library(ggsci); -->
+<!-- library(egg); -->
+
+
+<!-- set working directory -->
+setwd("/Users/jharris387/Dropbox (Personal)/computing-resources/website/")
+
+
+---
+title: Using bash for PSC
+author: |
+ | Jeremy Harris ^1^*
+ |  
+ | _^1^ Department of Biology, Emory University, 1510 Clifton Road NE, Atlanta, GA, USA, 30322_
+#bibliography:/Users/malishev/Documents/Melbourne Uni/Thesis_2016/library.bib
+fontsize: 10
+geometry: margin=1in
+documentclass: article
+linkcolor: pink
+urlcolor: blue
+citecolor: red
+output:
+  pdf_document:
+    includes:
+      in_header: # add .tex file with header content
+    highlight: tango
+    template: null
+    toc: yes
+    toc_depth: 4
+    number_sections: false
+    fig_width: 4
+    fig_height: 5
+    fig_caption: true
+    df_print: #tibble 
+    citation_package: biblatex # natbib
+    latex_engine: xelatex #pdflatex # lualatex
+    keep_tex: true # keep .tex file in dir 
+  html_document:
+    highlight: pygments  
+    code_folding: hide
+    toc: yes
+    toc_depth: 4
+    number_sections: no
+    toc_float: yes
+    keep_md: true
+  word_document:
+    highlight: tango
+    keep_md: yes
+    pandoc_args: --smart
+    #reference: mystyles.docx
+    toc: yes
+    toc_depth: 4
+inludes:
+  before_body: before_body.tex
+subtitle: 
+tags:
+- nothing
+- nothingness
+params: 
+  dir: "/Users/jdharr8/Google Drive/R-markdown"
+  date: !r Sys.Date()
+  version: !r getRversion()
+  email: "jeremy.harris31@gmail.com"
+  doi: https://github.com/darwinanddavis/
+classoption: portrait
+# ^['https://github.com/darwinanddavis/'] # footnote
+vignette: >
+  %\VignetteIndexEntry{Using bash}
+  %\VignetteEncoding{UTF-8}
+  %\VignetteEngine{knitr::rmarkdown}
+---
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "all"} } });
+</script>
+
+    
+```{r echo = FALSE}
+# library(rmarkdown)
+# setwd("")
+# f <- list.files()[1]
+# render(f, output_format='pdf_document')
+```
+
+```{r, set-options, echo = FALSE, cache = FALSE}
+options(width=100)
+knitr::opts_chunk$set(
+ eval = TRUE, # run all code
+ # echo = FALSE, # show code chunks in output 
+ comment = "",
+ tidy.opts=list(width.cutoff=100), # set width of code chunks in output
+ tidy=TRUE, # make output as tidy
+ message = FALSE,  # mask all messages
+ warning = FALSE, # mask all warnings 
+ size="small" # set code chunk size
+)
+
+# https://github.com/ucb-stat133/stat133-fall-2016/blob/master/hws/hw02-tables-ggplot.Rmd
+knitr::opts_knit$set(root.dir=paste0(params$dir,"/")) # set working dir
+
+setwd(paste0(params$dir,"/")) # for running just in R not knitr
+```
+
+\  
+
+Date: `r params$date`  
+`R` version: `r params$version`  
+*Corresponding author: `r params$email`  
+This document can be found at `r params$doi`
+
+\newpage  
+
+## Overview
+
+Basic commands and notes for running the PSC from bash  
+
+### Documentation for signing into PSC   
+  
+Name of server:  
+1. Launch Cyberduck  
+2. Go to terminal → shell → ‘new remote connection’ _(command+shift+K)_  
+3. On the left panel, select secure shell _(ssh)_  
+\  
+```{r, engine = 'bash', echo=T, eval=F}
+User – jdharris		SSH (Automatic)
+
+ssh -p 22 jdharris@bridges.psc.edu 
+
+password: newP112230^
+
+```
+
+### Some basic commands to launch a job
+\  
+```{r, engine = 'bash', echo = T, eval=F}
+
+sbatch filename.sbatch
+
+squeue --user=jdharris
+
+scancel jobid  % can also be used when you submit an array of jobs.
+
+interact -t ‘the length of time’ % open interactive node (hours:mins:sec); e.g. to test run
+
+module av % see what software is available
+
+module load ‘name of software’ % e.g. load matlab
+
+module list % to see what software is loaded
+
+module unload ‘name of software’ % e.g. conflicting versions of matlab
+
+```
+
+### Basic format of a batch file  
+
+```{r, engine = 'bash', echo = T, eval=F}
+
+#!/bin/bash
+
+#SBATCH --job-name=bozic	 	% as it appears in the terminal
+#SBATCH --output=bozic-Nb1-2	% output to the command window
+#SBATCH --error=bozic		% error filename
+#SBATCH --time=48:00:00		% maximum time to run something = 48hrs
+#SBATCH --nodes=1			% number of nodes
+#SBATCH --array=1			
+#SBATCH --ntasks-per-node=28	
+#SBATCH --ntasks=1
+#SBATCH --partition=RM		
+
+module load matlab/R2018a		% what software to load
+
+matlab -nodisplay < main_bozic_Nb1.m	% run *.m file
+
+```
+
+
+

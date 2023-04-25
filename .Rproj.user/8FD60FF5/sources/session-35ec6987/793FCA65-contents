@@ -1,0 +1,18 @@
+/* Whole document: */
+body{
+  font-family: Times;
+  font-size: 18pt;
+}
+/* Headers */
+h1,h2,h3{
+  font-size: 22pt;
+  font-weight: bold;
+}
+h4{
+  font-size: 20pt;
+  font-weight: bold;
+}
+h5,h6{
+  font-size: 14pt;
+  font-weight: bold;
+}
