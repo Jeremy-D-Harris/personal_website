@@ -89,18 +89,14 @@ vignette: >
 ---
 
 <br>
-<br>
 
 ## About
-
 <br>
-<p style="font-size: 24px">
+<!-- <p style="font-size: 10px"> -->
 Broadly, I use math models to study biological systems. In my PhD, I studied spatiotemporal patterns in neural firing rate models, advised by [Professor Bard Ermentrout](https://sites.pitt.edu/~phase/). During my postdoc'ing, I transitioned to studying virus-host dynamics across scales & systems. <br>
 
-I am currently in the [Weitz lab](https://weitzgroup.biosci.gatech.edu/) at GA Tech in biological sciences. I did my first postdoc in biology at Emory University, supervised by [Professor Katia Koelle](https://scholarblogs.emory.edu/koellelab/group-members/) (2017-2020) after receiving my PhD in applied math at University of Pittsburgh (2017). <br>
-
- <br>
-</p>
+I am currently in the [Weitz lab](https://weitzgroup.biosci.gatech.edu/) at GA Tech in biological sciences. I did my first postdoc in biology at Emory University, supervised by [Professor Katia Koelle](https://scholarblogs.emory.edu/koellelab/group-members/) (2017-2020) after receiving my PhD in applied math at University of Pittsburgh (2017).
+<!-- </p> -->
 
 
 #### Weblinks <br>
@@ -109,12 +105,9 @@ I am currently in the [Weitz lab](https://weitzgroup.biosci.gatech.edu/) at GA T
 - [orcid](https://orcid.org/0000-0002-6836-3620)
 <!-- - [linkedin](https://www.linkedin.com/in/jeremy-d-harris) -->
 <br>
-<br>
-
 
 ---
 
-<br>
 <br>
 
 ## Research
@@ -126,17 +119,17 @@ I use math models to study the ecology and evolution of infectious diseases. Inf
 
 <!-- ### In the [Weitz Lab](https://weitzgroup.biosci.gatech.edu/) <br> -->
 #### Weitz Lab (2020-Present) <br>
-<!-- <details closed> -->
+<details closed>
 <p>
-- epidemic models
+- <b> epidemic models </b>
   - asymptomatic transmission in COVID-19 using a generation interval framework <br>
   - effects of variation in transmissibility and susceptibility <br>
-- virus-microbe dynamics and entanglement problems
-  - model-fitting approach to examine latent period variability in one-step experiments
-  - multiple phages form lysogens on a shared host give rise to complex infection and population dynamics
-  - cellular responses to different bulk MOI show alternative modes of infection, e.g., lysis inhibition, pseudolysogeny 
+- <b> virus-microbe dynamics and entanglement </b>
+  - latent period variability in one-step experiments
+  - multiple phages form lysogens on a shared host $\rightarrow$ complex population dynamics
+  - cellular responses to different bulk MOI $\rightarrow$ varying infection outcomes, e.g., lysis inhibition, pseudolysogeny 
 </p>
-<!-- </summary> -->
+</summary>
 <br>
 
 <!-- ### In the [Koelle lab](https://scholarblogs.emory.edu/koellelab/) <br> -->
@@ -144,23 +137,30 @@ I use math models to study the ecology and evolution of infectious diseases. Inf
 <!-- to make a collapsible section -->
 <!-- <details closed> -->
 <p>
-- modeling cellular responses to multiple infections in influenza
+<details closed>
+- cellular responses to multiple infections in influenza  
 - emergent population dynamics
+</summary>
 </p>
-<!-- </summary> -->
-<br>
-<br>
-<br>
 <br>
 
-\newpage 
+#### Recent Publications <br>
+<!-- <details closed> -->
+<p style="font-size: 10px">
+- <u>Harris, J. D.</u>* , Park, S. W.*, Dushoff, J., & Weitz, J. S. (2023). How time-scale differences in asymptomatic and symptomatic transmission shape SARS-CoV-2 outbreak dynamics. Epidemics, 100664. [DOI](https://doi.org/10.1016/j.epidem.2022.100664) <br>
+- Martin, B. E.* , <u>Harris, J. D.</u>*, Sun, J., Koelle, K., & Brooke, C. B. (2020). Cellular co-infection can modulate the efficiency of influenza A virus production and shape the interferon response. PLoS pathogens, 16(10), e1008974. [DOI](https://doi.org/10.1371/journal.ppat.1008974)
+</p>
+
+<br>
+
+<p> *these folks contributed equally</p>
+<!-- </summary> -->
 
 ---
 
-<br>
-<br>
 
 ## Teaching
+
 <br>
 <p>
 - [QBioS Foundations Course](https://qbios.gatech.edu/course-information) (Fall 2021 & 2022) <br>
@@ -176,3 +176,6 @@ I use math models to study the ecology and evolution of infectious diseases. Inf
 </p>
 <br>
 <br>
+
+
+

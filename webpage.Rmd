@@ -81,9 +81,9 @@ knitr::opts_chunk$set(echo = TRUE)
 <img src="JDHarris_headshot_crop.jpeg" align="left" alt="isolated" width="150"/>
 <br>
 <br>
-<br>
+
 <!-- <p style="font-family:Times"> -->
-<p style="font-size: 16px">
+<p style="font-size: 18px">
    &ensp; Research Scientist II, [Weitz Lab](https://weitzgroup.biosci.gatech.edu/) <br>
    &ensp; Biological Sciences <br>
    &ensp; Georgia Tech, Atlanta, GA 
@@ -108,8 +108,8 @@ I am currently in the [Weitz lab](https://weitzgroup.biosci.gatech.edu/) at GA T
 
 
 #### Weblinks <br>
-- [github](https://github.com/Jeremy-D-Harris/)
-- [linkedin](https://www.linkedin.com/in/jeremy-d-harris)
+- [here is my github - trying to use actively!](https://github.com/Jeremy-D-Harris/)
+- [linkedin page - not using actively :( ](https://www.linkedin.com/in/jeremy-d-harris)
 - [orcid](https://orcid.org/0000-0002-6836-3620)
 <!-- - [linkedin](https://www.linkedin.com/in/jeremy-d-harris) -->
 <br>
@@ -132,12 +132,14 @@ I use math models to study the ecology and evolution of infectious diseases. Inf
 #### Weitz Lab (2020-Present) <br>
 <!-- <details closed> -->
 <p>
-- epidemic models
+- <b> epidemic models </b>
+  <details closed>
   - asymptomatic transmission in COVID-19 using a generation interval framework <br>
   - effects of variation in transmissibility and susceptibility <br>
-- virus-microbe dynamics and entanglement problems
-  - model-fitting approach to examine latent period variability in one-step experiments
-  - multiple phages form lysogens on a shared host give rise to complex infection and population dynamics
+  </summary>
+- <b> virus-microbe dynamics and entanglement problems </b>
+  - latent period variability in one-step experiments
+  - multiple phages form lysogens on a shared host $\rightarrow$ complex dynamics
   - cellular responses to different bulk MOI show alternative modes of infection, e.g., lysis inhibition, pseudolysogeny 
 </p>
 <!-- </summary> -->
