@@ -80,10 +80,10 @@ knitr::opts_chunk$set(echo = TRUE)
 <br>
 <img src="JDHarris_headshot_crop.jpeg" align="left" alt="isolated" width="150"/>
 <br>
-
-
+<br>
+<br>
 <!-- <p style="font-family:Times"> -->
-<p style="font-size: 18px">
+<p style="font-size: 16px">
    &ensp; Research Scientist II, [Weitz Lab](https://weitzgroup.biosci.gatech.edu/) <br>
    &ensp; Biological Sciences <br>
    &ensp; Georgia Tech, Atlanta, GA 
@@ -92,6 +92,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ---
 
+<br>
 <br>
 
 ## About
@@ -107,8 +108,8 @@ I am currently in the [Weitz lab](https://weitzgroup.biosci.gatech.edu/) at GA T
 
 
 #### Weblinks <br>
-- [here is my github - trying to use actively!](https://github.com/Jeremy-D-Harris/)
-- [linkedin page - not using actively :( ](https://www.linkedin.com/in/jeremy-d-harris)
+- [github](https://github.com/Jeremy-D-Harris/)
+- [linkedin](https://www.linkedin.com/in/jeremy-d-harris)
 - [orcid](https://orcid.org/0000-0002-6836-3620)
 <!-- - [linkedin](https://www.linkedin.com/in/jeremy-d-harris) -->
 <br>
@@ -117,6 +118,7 @@ I am currently in the [Weitz lab](https://weitzgroup.biosci.gatech.edu/) at GA T
 
 ---
 
+<br>
 <br>
 
 ## Research
@@ -130,17 +132,13 @@ I use math models to study the ecology and evolution of infectious diseases. Inf
 #### Weitz Lab (2020-Present) <br>
 <!-- <details closed> -->
 <p>
-- <b> epidemic models </b>
-  <details closed>
+- epidemic models
   - asymptomatic transmission in COVID-19 using a generation interval framework <br>
   - effects of variation in transmissibility and susceptibility <br>
-  </summary>
-- <b> virus-microbe dynamics and entanglement problems </b>
-  <details closed>
-  - latent period variability in one-step experiments
-  - multiple phages form lysogens on a shared host $\rightarrow$ complex dynamics
+- virus-microbe dynamics and entanglement problems
+  - model-fitting approach to examine latent period variability in one-step experiments
+  - multiple phages form lysogens on a shared host give rise to complex infection and population dynamics
   - cellular responses to different bulk MOI show alternative modes of infection, e.g., lysis inhibition, pseudolysogeny 
-  </summary>
 </p>
 <!-- </summary> -->
 <br>
@@ -150,44 +148,27 @@ I use math models to study the ecology and evolution of infectious diseases. Inf
 <!-- to make a collapsible section -->
 <!-- <details closed> -->
 <p>
-- <b> cell coinfection during influenza infections  </b>
-<details closed>
-  - modeling cellular responses to multiple infections in influenza
-  - emergent population dynamics
-</summary>
+- modeling cellular responses to multiple infections in influenza
+- emergent population dynamics
 </p>
 <!-- </summary> -->
-
-<br>
-
-#### Publications
-
-<p>
-- <u> Harris, J. D.</u>* , Park, S. W.*, Dushoff, J., & Weitz, J. S. (2023). How time-scale differences in asymptomatic and symptomatic transmission shape SARS-CoV-2 outbreak dynamics. Epidemics, 100664. ([DOI](https://doi.org/10.1016/j.epidem.2022.100664)) <br>
-- Martin, B. E.* , <u> Harris, J. D.</u> *, Sun, J., Koelle, K., & Brooke, C. B. (2020). Cellular co-infection can modulate the efficiency of influenza A virus production and shape the interferon response. PLoS pathogens, 16(10), e1008974. ([DOI](https://doi.org/10.1371/journal.ppat.1008974))
-</p>
-
-<br>
-  *these folks contributed equally
 <br>
 <br>
+<br>
+<br>
+
+\newpage 
 
 ---
 
+<br>
 <br>
 
 ## Teaching
 <br>
 <p>
 - [QBioS Foundations Course](https://qbios.gatech.edu/course-information) (Fall 2021 & 2022) <br>
-Modules taught:
-  - organismal behavior & sensing
-  - excitability: neurons
-  - excitability: cardiac cells
-  - biomechanics of movement
 - [ICTP-SAIFR Training Program in Quantitative Biology and Ecology](https://www.ictp-saifr.org/qbioprogram/) (Summer 2022)
-Module taught:
-  - organismal behavior & sensing
 </p>
 <br>
-
+<br>
