@@ -105,8 +105,9 @@ I got my PhD in Applied Math from University of Pittsburgh, where I studied spat
 
 
 #### Weblinks <br>
-- [here is my github - trying to use actively!](https://github.com/Jeremy-D-Harris/)
-- [linkedin page - not using actively :( ](https://www.linkedin.com/in/jeremy-d-harris)
+- [Recent publication (!) out of the Koelle Lab](https://academic.oup.com/mbe/article/41/1/msad286/7504375?login=false)
+- [github](https://github.com/Jeremy-D-Harris/)
+- [linkedin](https://www.linkedin.com/in/jeremy-d-harris)
 - [orcid](https://orcid.org/0000-0002-6836-3620)
 <!-- - [linkedin](https://www.linkedin.com/in/jeremy-d-harris) -->
 <br>
