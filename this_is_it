@@ -1,10 +1,10 @@
 ---
-title: | 
- | Jeremy D Harris, PhD
+title: |
+ | Personal Website
 author: |
- | [CV](https://github.com/Jeremy-D-Harris/cv_jdh_2022/blob/main/CV_JDH_Feb2023.pdf)
-# date: '2024-01-27'
-# runtime: shiny
+ | Jeremy D Harris, PhD, Applied Mathematics, [CV](https://github.com/Jeremy-D-Harris/cv_jdh_2022/blob/main/CV_JDH_Feb2023.pdf)
+# date: '2023-04-23'
+runtime: shiny
 #bibliography:/Users/malishev/Documents/Melbourne Uni/Thesis_2016/library.bib
 fontsize: 12
 # font-family: Courier;
@@ -15,15 +15,9 @@ linkcolor: pink
 urlcolor: blue
 citecolor: red
 output:
-  html_document:
-    highlight: pygments
-    css: style.css  
-    # code_folding: hide
-    toc: yes
+  html_notebook:
+    toc: true
     toc_depth: 4
-    number_sections: no
-    toc_float: yes
-    keep_md: true
   pdf_document:
     includes:
       in_header: # add .tex file with header content
@@ -35,10 +29,10 @@ output:
     fig_width: 4
     fig_height: 5
     fig_caption: true
-    df_print: tibble 
+    df_print: tibble
     citation_package: biblatex # natbib
     latex_engine: xelatex #pdflatex # lualatex
-    keep_tex: true # keep .tex file in dir 
+    keep_tex: true # keep .tex file in dir
   word_document:
     highlight: tango
     keep_md: yes
@@ -46,15 +40,24 @@ output:
     #reference: mystyles.docx
     toc: yes
     toc_depth: 4
+  html_document:
+    highlight: pygments
+    css: style.css
+    # code_folding: hide
+    toc: yes
+    toc_depth: 4
+    number_sections: no
+    toc_float: yes
+    keep_md: true
 inludes:
   # before_body: before_body.tex
   in_header: before_body.tex
-subtitle: 
+subtitle:
 tags:
 - nothing
 - nothingness
-params: 
-  dir: "/Users/harris1/Dropbox (Personal)/computing-resources/website_working"
+params:
+  dir: "/Users/jharris387/Dropbox (Personal)/computing-resources/website"
   date: !r Sys.Date()
   version: !r getRversion()
   email: "jeremy.harris@gatech.edu"
@@ -71,13 +74,17 @@ vignette: >
   MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "all"} } });
 </script>
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
 <!-- NOTE: Setting up webpage using Rmarkdown. Going by section... -->
 <br>
 <br>
 <img src="Harris_Jeremy-hs.JPG" align="left" alt="isolated" width="150"/>
 <br>
-<br>
+
+
 <!-- <p style="font-family:Times"> -->
 <p style="font-size: 18px">
    &ensp; [Visiting Assistant Professor](https://www.rose-hulman.edu/academics/academic-departments/mathematics/faculty-and-staff.html) <br>
@@ -85,6 +92,7 @@ vignette: >
    &ensp; Rose-Hulman Institute of Technology, Terre Haute, IN
 </p>
 <br>
+
 
 ---
 
@@ -107,6 +115,7 @@ I got my PhD in Applied Math from University of Pittsburgh, where I studied spat
 <!-- - [linkedin](https://www.linkedin.com/in/jeremy-d-harris) -->
 <br>
 <br>
+
 
 ---
 
@@ -162,6 +171,7 @@ Comparison of infection distibutions with respect to percent of infected cells i
 
 <br>
 
+
 #### Recent Publications
 
 <p>
@@ -199,7 +209,6 @@ Modules taught:
 Module taught:
   - organismal behavior & sensing
 </p>
+```{r}
 
-
-
-
+```
