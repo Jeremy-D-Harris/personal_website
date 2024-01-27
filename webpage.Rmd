@@ -97,11 +97,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## About
 
-<br>
 <p style="font-size: 24px">
-Broadly, I use math models to study biological systems. In my PhD, I studied spatiotemporal patterns in neural firing rate models, advised by [Professor Bard Ermentrout](https://sites.pitt.edu/~phase/). During my postdoc'ing, I transitioned to studying virus-host dynamics across scales & systems. <br>
-
-I am currently in the [Weitz lab](https://weitzgroup.biosci.gatech.edu/) at GA Tech in biological sciences. I did my first postdoc in biology at Emory University, supervised by [Professor Katia Koelle](https://scholarblogs.emory.edu/koellelab/group-members/) (2017-2020) after receiving my PhD in applied math at University of Pittsburgh (2017). <br>
+I got my PhD in Applied Math from University of Pittsburgh, where I studied spatiotemporal patterns in neural firing rate models, advised by [Professor Bard Ermentrout](https://sites.pitt.edu/~phase/). I did my first postdoc in biology at Emory University, supervised by [Professor Katia Koelle](https://scholarblogs.emory.edu/koellelab/group-members/) (2017-2020), where I began studying virus-host dynamics. Before moving into my current position at [Rose-Hulman](https://www.rose-hulman.edu/academics/academic-departments/mathematics/index.html), I did a postdoc in the [Weitz lab](https://weitzgroup.biosci.gatech.edu/) at GA Tech in biological sciences, continuting to study virus-host dynamics both across systems and scales: from COVID epidemic dynamics to phage-host dynamics (viruses infecting bacteria).  <br>
 
  <br>
 </p>
