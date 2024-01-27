@@ -78,7 +78,7 @@ knitr::opts_chunk$set(echo = TRUE)
 <!-- NOTE: Setting up webpage using Rmarkdown. Going by section... -->
 <br>
 <br>
-<img src="JDHarris_headshot_crop.jpeg" align="left" alt="isolated" width="150"/>
+<img src="Harris_Jeremy-hs.JPG" align="left" alt="isolated" width="150"/>
 <br>
 
 
