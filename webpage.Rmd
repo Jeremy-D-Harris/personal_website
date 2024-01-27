@@ -84,11 +84,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <!-- <p style="font-family:Times"> -->
 <p style="font-size: 18px">
-   &ensp; Research Scientist II, [Weitz Lab](https://weitzgroup.biosci.gatech.edu/) <br>
-   &ensp; Biological Sciences <br>
-   &ensp; Georgia Tech, Atlanta, GA 
+   &ensp; [Visiting Assistant Professor](https://www.rose-hulman.edu/academics/academic-departments/mathematics/faculty-and-staff.html) <br>
+   &ensp; Mathematics <br>
+   &ensp; Rose-Hulman Institute of Technology, Terre Haute, IN
 </p>
 <br>
+
 
 ---
 
